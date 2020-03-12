@@ -1,38 +1,66 @@
-.App {
+.child{
+  border-radius: 15px;
+  width: 20%;
+  border: 1px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 0px 8px 8px -8px rgb(29, 192, 51);
   text-align: center;
+  background-color: aqua;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.parent{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.child img{
+  width: 100%;
+}
+.link
+{
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  text-decoration: none;
+  background: green;
+  padding: 4%;
+  border-radius: 50%;
+  display: block;
+  color: orange;
+  
+}
+.child2{
+  border: 1px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 0px 8px 8px -8px black;
+  text-align: left;
+  background: aqua;
+  width: 70%;
+  height: 100%;
+  display: block;
+  background: royalblue;
+  border-radius: 15px;
+}
+.child1{
+  border: 1px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+  box-shadow: 0px 8px 8px -8px orangered;
+  text-align: center;
+  background: aqua;
+  width: 20%;
+  display: block;
+  background: wheat;
+  border-radius: 15px;
+}
+.skill{
+  margin: 0.5%;
+  padding: 0.5%;
+  color: #000;
+  border-radius: 35px;
+  background: lime;
+  border: 1px solid violet ;
+  box-shadow: 0px 8px 8px -8px #000;
 }
